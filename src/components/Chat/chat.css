@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.messenger {
+
+  margin-top: 4rem;
+  height: 97vh;
+  display: flex;
+  overflow-y:hidden;
+  overflow-x: hidden;
+  background-color: #202124;
+}
+
+.ChatMenu {
+  
+  flex: 2;
+  overflow-y: scroll;
+  height: 100vh;
+  background-color: #202124;
+  position: relative;
+}
+
+.ChatBox {
+   
+  flex: 3.5;
+  background-color: #202124;
+}
+
+.ChatOnline {
+  flex: 2;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+
+  height: 100%;
+
+  background-color: #202124;
+}
+
+
+
+.chatMenuInput {
+
+
+  width: 40%;
+  height: 30px; 
+  padding: 10px;
+ margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3d3e41;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+
+.chatBoxBottom {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #202124;
+}
+
+.chatMessageInput {
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+
+  margin-bottom: 30px;
+  box-shadow: inset 0px -3px 19px -7px rgba(193, 192, 192, 0.75);
+  color: rgb(255, 254, 254);
+    background-color: #cdcdcd;
+  
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: rgb(174, 166, 166);
+  margin-bottom: 20px;
+  background-color: #3d3e41;
+}
+.chatSubmitButton:hover {
+
+background-color: #ab1941  ;
+
+}
+
+.chatBoxWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+    border-left: 1px solid rgb(74, 74, 74);
+     border-right: 1px solid rgb(74, 74, 74);
+     ;
+}
+
+.chatBoxTop {
+  padding-right: 25px;
+  padding-left: 25px;
+  overflow-y: scroll;
+  height: 100%;
+
+}
+
+.searchIcon{
+
+position:absolute;
+top: 20px;
+left: 320px;
+color: rgb(143, 141, 141);
+
+
+}
+
+
+.selectConvo{
+position: absolute;
+color: white;
+top:40vh;
+left:17.5vh;
+font-size:4vh;
+opacity: .6;
+font-weight: 400;
+cursor: default;
+}
+
+@media screen and (max-width: 800px)
+
+{
+
+    .ChatMenu {
+display: none;
+}
+
+.ChatBox {
+   
+  flex: 6.5;
+  background-color: #202124;
+}
+
+.ChatOnline {
+display: none;
+}
+
+ 
+}

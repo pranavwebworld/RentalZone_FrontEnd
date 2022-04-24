@@ -1,0 +1,28 @@
+.Radialred{
+position: absolute;
+width: 70%;
+height: 80%;
+left: 337px;
+top: 1343.87px;
+background: rgba(197, 2, 72, 0.3);
+filter: blur(650px);
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.Radialred{
+
+top: 1645.87px;
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    left: 5rem;
+    top: 110rem;
+    background: rgba(197, 2, 72, 0.5);
+    filter: blur(650px);
+   
+}
+ }   
